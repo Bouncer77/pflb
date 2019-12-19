@@ -1,21 +1,15 @@
 package ru.pflb.study.kosenkov.homework1;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TestNumberConverter {
 
-    /*@Test
-    public void testConvertDecToBin() {
-        Assert.assertEquals(NumberConverter.convertDecToBin(5), "101");
-    }*/
-
     @BeforeMethod
     private void soutThread(){
-        System.out.println((Thread.currentThread().getId()));
+        System.out.println("Thread number: " + Thread.currentThread().getId());
     }
 
     @DataProvider(name = "decBinProvider", parallel = true)
@@ -42,7 +36,7 @@ public class TestNumberConverter {
 
     @Test(description = "method testing convertDecToHex",
             dataProvider = "decHexProvider")
-    public void testIntToHex(int num, String expectedResult){
+    public void testConvertDecToHex(int num, String expectedResult){
         Assert.assertEquals(NumberConverter.convertDecToHex(num),expectedResult);
     }
 
@@ -56,7 +50,7 @@ public class TestNumberConverter {
 
     @Test(description = "method testing convertBinToOct",
             dataProvider = "binHexProvider")
-    public void testBinToHex(int num, String expectedResult){
+    public void testConvertBinToOct(int num, String expectedResult){
         Assert.assertEquals(NumberConverter.convertBinToOct(num),expectedResult);
     }
 
