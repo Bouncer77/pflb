@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="27" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="87" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="87" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+      <class name="ru.pflb.study.kosenkov.homework1.TestNumberConverter">
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="1" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="1" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="1" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="testConvertBinToOct(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertBinToOct" duration-ms="1" started-at="2019-12-19T22:29:56Z" description="method testing convertBinToOct" data-provider="binHexProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[64]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertBinToOct -->
+        <test-method status="PASS" signature="testConvertBinToOct(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertBinToOct" duration-ms="1" started-at="2019-12-19T22:29:56Z" description="method testing convertBinToOct" data-provider="binHexProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertBinToOct -->
+        <test-method status="PASS" signature="testConvertBinToOct(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertBinToOct" duration-ms="1" started-at="2019-12-19T22:29:56Z" description="method testing convertBinToOct" data-provider="binHexProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[255]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[377]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertBinToOct -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="testConvertBinToOct(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertBinToOct" duration-ms="1" started-at="2019-12-19T22:29:56Z" description="method testing convertBinToOct" data-provider="binHexProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertBinToOct -->
+        <test-method status="PASS" signature="testConvertDecToBin(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertDecToBin" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="method testing convertDecToBin" data-provider="decBinProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[64]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertDecToBin -->
+        <test-method status="PASS" signature="testConvertDecToBin(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertDecToBin" duration-ms="1" started-at="2019-12-19T22:29:56Z" description="method testing convertDecToBin" data-provider="decBinProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertDecToBin -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="1" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="testConvertDecToBin(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertDecToBin" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="method testing convertDecToBin" data-provider="decBinProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[255]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertDecToBin -->
+        <test-method status="PASS" signature="testConvertDecToBin(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertDecToBin" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="method testing convertDecToBin" data-provider="decBinProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertDecToBin -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="testConvertDecToHex(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertDecToHex" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="method testing convertDecToHex" data-provider="decHexProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[255]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertDecToHex -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="testConvertDecToHex(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertDecToHex" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="method testing convertDecToHex" data-provider="decHexProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertDecToHex -->
+        <test-method status="PASS" signature="testConvertDecToHex(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertDecToHex" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="method testing convertDecToHex" data-provider="decHexProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[64]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertDecToHex -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="testConvertDecToHex(int, java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testConvertDecToHex" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="method testing convertDecToHex" data-provider="decHexProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertDecToHex -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="1" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="1" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="2" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="testNegativeIsBinOROctORHex(java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testNegativeIsBinOROctORHex" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="Negative test - method isBinOROctORHex" data-provider="isBinOROctORHexNegativeProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeIsBinOROctORHex -->
+        <test-method status="PASS" signature="testNegativeIsBinOROctORHex(java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testNegativeIsBinOROctORHex" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="Negative test - method isBinOROctORHex" data-provider="isBinOROctORHexNegativeProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello, world!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeIsBinOROctORHex -->
+        <test-method status="PASS" signature="testNegativeIsBinOROctORHex(java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testNegativeIsBinOROctORHex" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="Negative test - method isBinOROctORHex" data-provider="isBinOROctORHexNegativeProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zero]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeIsBinOROctORHex -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="5" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="1" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="testPositiveIsBinOROctORHex(java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testPositiveIsBinOROctORHex" duration-ms="0" started-at="2019-12-19T22:29:56Z" description="Positive test - method isBinOROctORHex" data-provider="isBinOROctORHexPositiveProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveIsBinOROctORHex -->
+        <test-method status="PASS" signature="soutThread()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="soutThread" is-config="true" duration-ms="3" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soutThread -->
+        <test-method status="PASS" signature="testPositiveIsBinOROctORHex(java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testPositiveIsBinOROctORHex" duration-ms="2" started-at="2019-12-19T22:29:56Z" description="Positive test - method isBinOROctORHex" data-provider="isBinOROctORHexPositiveProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveIsBinOROctORHex -->
+        <test-method status="PASS" signature="testPositiveIsBinOROctORHex(java.lang.String)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestNumberConverter@3d24753a]" name="testPositiveIsBinOROctORHex" duration-ms="1" started-at="2019-12-19T22:29:56Z" description="Positive test - method isBinOROctORHex" data-provider="isBinOROctORHexPositiveProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveIsBinOROctORHex -->
+      </class> <!-- ru.pflb.study.kosenkov.homework1.TestNumberConverter -->
+      <class name="ru.pflb.study.kosenkov.homework1.TestMain">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestMain@7e0ea639]" name="setUp" is-config="true" duration-ms="16" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestMain@7e0ea639]" name="testAdd" duration-ms="1" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd1()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestMain@7e0ea639]" name="testAdd1" duration-ms="2" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd1 -->
+        <test-method status="PASS" signature="testDiv()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestMain@7e0ea639]" name="testDiv" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Div by 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Div by 0
+at ru.pflb.study.kosenkov.homework1.Main.divide(Main.java:14)
+at ru.pflb.study.kosenkov.homework1.TestMain.testDiv(TestMain.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testAdd2()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestMain@7e0ea639]" name="testAdd2" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd2 -->
+        <test-method status="PASS" signature="testMult()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestMain@7e0ea639]" name="testMult" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testParameters(int, int, int)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestMain@7e0ea639]" name="testParameters" duration-ms="0" started-at="2019-12-19T22:29:56Z" data-provider="numberProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameters -->
+        <test-method status="PASS" signature="testParameters(int, int, int)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestMain@7e0ea639]" name="testParameters" duration-ms="0" started-at="2019-12-19T22:29:56Z" data-provider="numberProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameters -->
+        <test-method status="PASS" signature="testParameters(int, int, int)[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestMain@7e0ea639]" name="testParameters" duration-ms="0" started-at="2019-12-19T22:29:56Z" data-provider="numberProvider" finished-at="2019-12-19T22:29:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameters -->
+        <test-method status="PASS" signature="testSub()[pri:0, instance:ru.pflb.study.kosenkov.homework1.TestMain@7e0ea639]" name="testSub" duration-ms="0" started-at="2019-12-19T22:29:56Z" finished-at="2019-12-19T22:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+      </class> <!-- ru.pflb.study.kosenkov.homework1.TestMain -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

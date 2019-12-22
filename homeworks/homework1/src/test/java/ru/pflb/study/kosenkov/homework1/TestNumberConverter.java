@@ -56,7 +56,7 @@ public class TestNumberConverter {
 
     @DataProvider(name = "isBinOROctORHexPositiveProvider", parallel = true)
     public Object[] isBinOROctORHexPositiveProvider(){
-        return new Object[]{"15","1111","f"};
+        return new Object[]{"f","17","1111"};
     }
 
     @Test(description = "Positive test - method isBinOROctORHex",
@@ -64,6 +64,7 @@ public class TestNumberConverter {
     public void testPositiveIsBinOROctORHex(String strNum){
         Assert.assertTrue(NumberConverter.isBinOROctORHex(strNum));
     }
+
 
     @DataProvider(name = "isBinOROctORHexNegativeProvider",
             parallel = true)
